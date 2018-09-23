@@ -1,0 +1,7 @@
+hosts:
+  - chassis.local
+
+paths:
+  base: ../../..
+  wp: vendor/chassis/chassis/wp
+  content: vendor/chassis/chassis/content

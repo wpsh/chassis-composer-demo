@@ -1,0 +1,20 @@
+{
+    "name": "wpsh/chassis-composer-demo",
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+              "name": "chassis/chassis",
+              "version": "master",
+              "source": {
+                "url": "https://github.com/chassis/chassis",
+                "type": "git",
+                "reference": "master"
+              }
+            }
+        }
+    ],
+    "require-dev": {
+        "chassis/chassis": "dev-master"
+    }
+}
