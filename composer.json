@@ -12,13 +12,22 @@
                 "reference": "feature/composer-dep-support"
               }
             }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "wordpress/wordpress-develop",
+                "version": "dev-master",
+                "source": {
+                    "url": "https://github.com/WordPress/wordpress-develop",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
         }
     ],
     "require-dev": {
-        "chassis/chassis": "dev-481"
-    },
-    "scripts": {
-        "post-install-cmd": "git submodule update --init",
-        "post-update-cmd": "git submodule update --init"
+        "chassis/chassis": "dev-481",
+        "wordpress/wordpress-develop": "dev-master"
     }
 }

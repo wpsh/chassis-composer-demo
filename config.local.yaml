@@ -3,7 +3,7 @@ hosts:
 
 paths:
     base: .
-    wp: ../../../wordpress-develop # Relative to the Chassis root directory.
+    wp: ../../wordpress/wordpress-develop # Relative to the Chassis root directory.
     content: content
 
 plugins:
