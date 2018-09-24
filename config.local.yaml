@@ -1,11 +1,13 @@
 hosts:
   - composer.local
 
+paths:
+  base: .
+  wp: ../../wordpress/wordpress-develop/src # Relative to Chassis root directory.
+  content: content
+
 plugins:
   - query-monitor
 
 extensions:
   - Tester
-
-synced_folders:
-  vendor/wordpress/wordpress-develop: /chassis/wp
