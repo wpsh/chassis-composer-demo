@@ -1,0 +1,3 @@
+[submodule "wordpress-develop"]
+	path = wordpress-develop
+	url = https://github.com/WordPress/wordpress-develop.git

@@ -16,5 +16,9 @@
     ],
     "require-dev": {
         "chassis/chassis": "dev-481"
+    },
+    "scripts": {
+        "post-install-cmd": "git submodule update --init",
+        "post-update-cmd": "git submodule update --init"
     }
 }
