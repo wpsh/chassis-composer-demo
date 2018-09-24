@@ -14,4 +14,4 @@ disabled_extensions:
    - chassis/mailhog
 
 synced_folders:
-  ../init: /chassis/content/plugins/this-plugin
+  .: /chassis/content/plugins/this-plugin
