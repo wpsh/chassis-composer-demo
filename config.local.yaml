@@ -2,10 +2,10 @@ hosts:
   - composer.local
 
 plugins:
-   - query-monitor
+  - query-monitor
 
 extensions:
-   - Tester
+  - Tester
 
 synced_folders:
   vendor/wordpress/wordpress-develop: /chassis/wp
