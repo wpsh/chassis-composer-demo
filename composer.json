@@ -5,16 +5,16 @@
             "type": "package",
             "package": {
               "name": "chassis/chassis",
-              "version": "master",
+              "version": "dev-481",
               "source": {
-                "url": "https://github.com/chassis/chassis",
+                "url": "https://github.com/wpsh/Chassis",
                 "type": "git",
-                "reference": "master"
+                "reference": "feature/composer-dep-support"
               }
             }
         }
     ],
     "require-dev": {
-        "chassis/chassis": "dev-master"
+        "chassis/chassis": "dev-481"
     }
 }
