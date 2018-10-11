@@ -2,8 +2,8 @@ hosts:
   - composer.local
 
 paths:
-  base: .
-  wp: ../../wordpress/wordpress-develop/src # Relative to Chassis root directory.
+  base: ../../..
+  wp: vendor/wordpress/wordpress-develop
   content: content
 
 plugins:
